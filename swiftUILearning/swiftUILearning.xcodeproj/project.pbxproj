@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18A70EA52B528B3D00DE6A7B /* text_field_taskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EA42B528B3D00DE6A7B /* text_field_taskApp.swift */; };
-		18A70EA72B528B3D00DE6A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EA62B528B3D00DE6A7B /* ContentView.swift */; };
-		18A70EA92B528B4000DE6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A70EA82B528B4000DE6A7B /* Assets.xcassets */; };
-		18A70EAC2B528B4000DE6A7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A70EAB2B528B4000DE6A7B /* Preview Assets.xcassets */; };
-		18A70EB32B52A86B00DE6A7B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EB22B52A86B00DE6A7B /* SignUpView.swift */; };
-		18A70EB52B52A8B800DE6A7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EB42B52A8B800DE6A7B /* LoginView.swift */; };
+		18A70EC32B5542BD00DE6A7B /* swiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EC22B5542BD00DE6A7B /* swiftUILearningApp.swift */; };
+		18A70EC52B5542BD00DE6A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EC42B5542BD00DE6A7B /* ContentView.swift */; };
+		18A70EC72B5542BE00DE6A7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A70EC62B5542BE00DE6A7B /* Assets.xcassets */; };
+		18A70ECA2B5542BE00DE6A7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A70EC92B5542BE00DE6A7B /* Preview Assets.xcassets */; };
+		18A70EDB2B55439200DE6A7B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70ED92B55439200DE6A7B /* SignUpView.swift */; };
+		18A70EDC2B55439200DE6A7B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A70EDA2B55439200DE6A7B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18A70EA12B528B3D00DE6A7B /* text field task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "text field task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18A70EA42B528B3D00DE6A7B /* text_field_taskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text_field_taskApp.swift; sourceTree = "<group>"; };
-		18A70EA62B528B3D00DE6A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18A70EA82B528B4000DE6A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18A70EAB2B528B4000DE6A7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18A70EB22B52A86B00DE6A7B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
-		18A70EB42B52A8B800DE6A7B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		18A70EBF2B5542BD00DE6A7B /* swiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A70EC22B5542BD00DE6A7B /* swiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILearningApp.swift; sourceTree = "<group>"; };
+		18A70EC42B5542BD00DE6A7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18A70EC62B5542BE00DE6A7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A70EC92B5542BE00DE6A7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18A70ED92B55439200DE6A7B /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		18A70EDA2B55439200DE6A7B /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18A70E9E2B528B3D00DE6A7B /* Frameworks */ = {
+		18A70EBC2B5542BD00DE6A7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,79 +36,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18A70E982B528B3D00DE6A7B = {
+		18A70EB62B5542BD00DE6A7B = {
 			isa = PBXGroup;
 			children = (
-				18A70EA32B528B3D00DE6A7B /* text field task */,
-				18A70EA22B528B3D00DE6A7B /* Products */,
+				18A70EC12B5542BD00DE6A7B /* swiftUILearning */,
+				18A70EC02B5542BD00DE6A7B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18A70EA22B528B3D00DE6A7B /* Products */ = {
+		18A70EC02B5542BD00DE6A7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18A70EA12B528B3D00DE6A7B /* text field task.app */,
+				18A70EBF2B5542BD00DE6A7B /* swiftUILearning.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18A70EA32B528B3D00DE6A7B /* text field task */ = {
+		18A70EC12B5542BD00DE6A7B /* swiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
-				18A70EA42B528B3D00DE6A7B /* text_field_taskApp.swift */,
-				18A70EB22B52A86B00DE6A7B /* SignUpView.swift */,
-				18A70EA62B528B3D00DE6A7B /* ContentView.swift */,
-				18A70EA82B528B4000DE6A7B /* Assets.xcassets */,
-				18A70EAA2B528B4000DE6A7B /* Preview Content */,
-				18A70EB42B52A8B800DE6A7B /* LoginView.swift */,
+				18A70ED02B55430100DE6A7B /* textfieldtask */,
+				18A70EC22B5542BD00DE6A7B /* swiftUILearningApp.swift */,
+				18A70EC42B5542BD00DE6A7B /* ContentView.swift */,
+				18A70EC62B5542BE00DE6A7B /* Assets.xcassets */,
+				18A70EC82B5542BE00DE6A7B /* Preview Content */,
 			);
-			path = "text field task";
+			path = swiftUILearning;
 			sourceTree = "<group>";
 		};
-		18A70EAA2B528B4000DE6A7B /* Preview Content */ = {
+		18A70EC82B5542BE00DE6A7B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				18A70EAB2B528B4000DE6A7B /* Preview Assets.xcassets */,
+				18A70EC92B5542BE00DE6A7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18A70ED02B55430100DE6A7B /* textfieldtask */ = {
+			isa = PBXGroup;
+			children = (
+				18A70EDA2B55439200DE6A7B /* LoginView.swift */,
+				18A70ED92B55439200DE6A7B /* SignUpView.swift */,
+			);
+			path = textfieldtask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18A70EA02B528B3D00DE6A7B /* text field task */ = {
+		18A70EBE2B5542BD00DE6A7B /* swiftUILearning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18A70EAF2B528B4000DE6A7B /* Build configuration list for PBXNativeTarget "text field task" */;
+			buildConfigurationList = 18A70ECD2B5542BE00DE6A7B /* Build configuration list for PBXNativeTarget "swiftUILearning" */;
 			buildPhases = (
-				18A70E9D2B528B3D00DE6A7B /* Sources */,
-				18A70E9E2B528B3D00DE6A7B /* Frameworks */,
-				18A70E9F2B528B3D00DE6A7B /* Resources */,
+				18A70EBB2B5542BD00DE6A7B /* Sources */,
+				18A70EBC2B5542BD00DE6A7B /* Frameworks */,
+				18A70EBD2B5542BD00DE6A7B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "text field task";
-			productName = "text field task";
-			productReference = 18A70EA12B528B3D00DE6A7B /* text field task.app */;
+			name = swiftUILearning;
+			productName = swiftUILearning;
+			productReference = 18A70EBF2B5542BD00DE6A7B /* swiftUILearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18A70E992B528B3D00DE6A7B /* Project object */ = {
+		18A70EB72B5542BD00DE6A7B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					18A70EA02B528B3D00DE6A7B = {
+					18A70EBE2B5542BD00DE6A7B = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 18A70E9C2B528B3D00DE6A7B /* Build configuration list for PBXProject "text field task" */;
+			buildConfigurationList = 18A70EBA2B5542BD00DE6A7B /* Build configuration list for PBXProject "swiftUILearning" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +124,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 18A70E982B528B3D00DE6A7B;
-			productRefGroup = 18A70EA22B528B3D00DE6A7B /* Products */;
+			mainGroup = 18A70EB62B5542BD00DE6A7B;
+			productRefGroup = 18A70EC02B5542BD00DE6A7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18A70EA02B528B3D00DE6A7B /* text field task */,
+				18A70EBE2B5542BD00DE6A7B /* swiftUILearning */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18A70E9F2B528B3D00DE6A7B /* Resources */ = {
+		18A70EBD2B5542BD00DE6A7B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A70EAC2B528B4000DE6A7B /* Preview Assets.xcassets in Resources */,
-				18A70EA92B528B4000DE6A7B /* Assets.xcassets in Resources */,
+				18A70ECA2B5542BE00DE6A7B /* Preview Assets.xcassets in Resources */,
+				18A70EC72B5542BE00DE6A7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18A70E9D2B528B3D00DE6A7B /* Sources */ = {
+		18A70EBB2B5542BD00DE6A7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A70EA72B528B3D00DE6A7B /* ContentView.swift in Sources */,
-				18A70EB32B52A86B00DE6A7B /* SignUpView.swift in Sources */,
-				18A70EB52B52A8B800DE6A7B /* LoginView.swift in Sources */,
-				18A70EA52B528B3D00DE6A7B /* text_field_taskApp.swift in Sources */,
+				18A70EC52B5542BD00DE6A7B /* ContentView.swift in Sources */,
+				18A70EDB2B55439200DE6A7B /* SignUpView.swift in Sources */,
+				18A70EDC2B55439200DE6A7B /* LoginView.swift in Sources */,
+				18A70EC32B5542BD00DE6A7B /* swiftUILearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18A70EAD2B528B4000DE6A7B /* Debug */ = {
+		18A70ECB2B5542BE00DE6A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		18A70EAE2B528B4000DE6A7B /* Release */ = {
+		18A70ECC2B5542BE00DE6A7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,14 +275,14 @@
 			};
 			name = Release;
 		};
-		18A70EB02B528B4000DE6A7B /* Debug */ = {
+		18A70ECE2B5542BE00DE6A7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"text field task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftUILearning/Preview Content\"";
 				DEVELOPMENT_TEAM = U9L575X827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "s.text-field-task";
+				PRODUCT_BUNDLE_IDENTIFIER = s.swiftUILearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +304,14 @@
 			};
 			name = Debug;
 		};
-		18A70EB12B528B4000DE6A7B /* Release */ = {
+		18A70ECF2B5542BE00DE6A7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"text field task/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftUILearning/Preview Content\"";
 				DEVELOPMENT_TEAM = U9L575X827;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "s.text-field-task";
+				PRODUCT_BUNDLE_IDENTIFIER = s.swiftUILearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +336,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18A70E9C2B528B3D00DE6A7B /* Build configuration list for PBXProject "text field task" */ = {
+		18A70EBA2B5542BD00DE6A7B /* Build configuration list for PBXProject "swiftUILearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A70EAD2B528B4000DE6A7B /* Debug */,
-				18A70EAE2B528B4000DE6A7B /* Release */,
+				18A70ECB2B5542BE00DE6A7B /* Debug */,
+				18A70ECC2B5542BE00DE6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18A70EAF2B528B4000DE6A7B /* Build configuration list for PBXNativeTarget "text field task" */ = {
+		18A70ECD2B5542BE00DE6A7B /* Build configuration list for PBXNativeTarget "swiftUILearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18A70EB02B528B4000DE6A7B /* Debug */,
-				18A70EB12B528B4000DE6A7B /* Release */,
+				18A70ECE2B5542BE00DE6A7B /* Debug */,
+				18A70ECF2B5542BE00DE6A7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18A70E992B528B3D00DE6A7B /* Project object */;
+	rootObject = 18A70EB72B5542BD00DE6A7B /* Project object */;
 }
